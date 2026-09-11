@@ -1,6 +1,6 @@
 // Centralized API Configuration & Helper Utilities for GiftVerse
 
-export const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+export const API_BASE_URL = import.meta.env.VITE_API_URL || "https://giftverse-1-dtj5.onrender.com";
 
 /**
  * Generic fetch wrapper with timeout, error handling, and JSON parsing
